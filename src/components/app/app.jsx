@@ -7,7 +7,9 @@ function App() {
 
   return (
     <>
-      <City/>
+      <City city={"Москва"}/>
+      <City city={"Пенза"}/>
+      <City city={"Саратов"}/>
       <div className="counter">
         <button onClick={() => setCounter((prev) => prev + 1)} className="counter__button counter__plus">+</button>
         <div className="counter__digit">

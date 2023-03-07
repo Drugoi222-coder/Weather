@@ -1,0 +1,20 @@
+.city {
+    font-family: "Montserrat";
+}
+
+.city__name {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.city__forecast {
+    padding-top: 50px;
+    width: 1300px;
+    height: 80vh;
+    align-items: stretch;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

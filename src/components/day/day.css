@@ -1,0 +1,26 @@
+.day {
+    width: 345px;
+    height: 185px;
+    color: white;
+    font-size: 17px;
+    background: url("../../assets/imgs/rectangle.png") no-repeat;
+    padding-left: 20px;
+}
+
+.day__date {
+    margin-top: 84px;
+    font-size: 14px;
+    color: rgba(235, 235, 245, 0.6);
+}
+
+.day__img {
+    position: relative;
+    width: 100px;
+}
+
+.day__icon {
+    position: absolute;
+    width: 100%;
+    right: -180px;
+    top: -20px;
+}
