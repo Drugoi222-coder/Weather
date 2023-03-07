@@ -1,0 +1,33 @@
+.counter {
+    font-size: 30px;
+    width: 10vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(159, 163, 219);
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: rgb(0, 0, 0);
+}
+
+.counter__button {
+    width: 30px;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.counter__minus {
+    background-color: red;
+    border-left: 1px solid grey;
+}
+
+.counter__plus {
+    border-right: 1px solid grey;
+}
