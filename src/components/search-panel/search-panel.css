@@ -1,0 +1,37 @@
+.search-panel {
+    font-family: "Montserrat";
+    border-radius: 10px;
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+    background-color: #5836b2;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.search-panel__header {
+    font-size: 20px;
+    margin: 0;
+}
+
+.search-panel__city, .search-panel__search-button {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-panel__city,.search-panel__city:focus-visible {
+    margin-top: 10px;
+}
+
+.search-panel__search-button {
+    margin-left: 10px;
+    color: #616163;
+    background-color: #fcce07;
+    cursor: pointer;
+}
+
+.app__search-panel {
+    margin-top: 15px;
+}

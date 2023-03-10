@@ -1,2 +1,6 @@
 @import url("normalize.css");
 @import url("assets/fonts/fonts.css");
+
+html, *{
+    box-sizing: border-box;
+}

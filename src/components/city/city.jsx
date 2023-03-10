@@ -3,6 +3,7 @@ import Day from '../day/day';
 import { useEffect, useState } from 'react';
 import { getForecastOnDays } from "../utils/utils";
 import uniqid from 'uniqid';
+import SyncLoader from "react-spinners/SyncLoader";
 
 const City = (props) => {
     const { city } = props;
@@ -64,7 +65,18 @@ const City = (props) => {
         return (<div className="error">{error}</div>);
     } else if (!isLoaded) {
         return (
-            <div className="loading">Загрузка...</div>
+            <div className="loading">
+                <SyncLoader
+                    color="#5836b2"
+                    margin={13}
+                    size={40}
+                    cssOverride={{
+                        margin: '0 auto',
+                        width: '200px',
+                        marginTop: '100px'
+                    }}
+                />
+            </div>
         )
     } else {
         return (
