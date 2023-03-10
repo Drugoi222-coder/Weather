@@ -1,5 +1,4 @@
 import './App.css'
-import { useState } from 'react';
 import City from '../../components/city/city';
 
 function App() {
